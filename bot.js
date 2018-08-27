@@ -432,8 +432,8 @@ client.on('guildMemberAdd', member => {
          var m = member.user;
         let yumz = new Discord.RichEmbed()
         .setColor('RANDOM')
-        .setThumbnail(m.avatarURL)
-        .setAuthor(m.username,m.avatarURL)
+        .setThumbnail(https://cdn.discordapp.com/attachments/474724410100547584/483676556493848577/PicsArt_08-26-07.04.54.png)
+        .setAuthor(m.username,m.https://cdn.discordapp.com/attachments/474724410100547584/483676556493848577/PicsArt_08-26-07.04.54.png)
         .addField(': تاريخ دخولك الدسكورد',`${moment(member.user.createdAt).format('D/M/YYYY h:mm a')} **\n** \`${moment(member.user.createdAt).fromNow()}\``,true)            
       
          .setFooter(`${m.tag}`,"https://images-ext-2.discordapp.net/external/JpyzxW2wMRG2874gSTdNTpC_q9AHl8x8V4SMmtRtlVk/https/orcid.org/sites/default/files/files/ID_symbol_B-W_128x128.gif")
