@@ -1,8 +1,5 @@
 {
   "name": "discord.js-heroku",
-  "canvas": "^ 1.6.11",
-   "short-number": "^1.0.6",
-    "random-number": "^0.0.9",
   "version": "1.0.0",
   "description": "Discord.js bot on Heroku",
   "main": "bot.js",
@@ -18,6 +15,9 @@
     "math-expression-evaluator": "^1.2.17",
     "node-gyp": "^3.7.0",
     "opusscript": "^0.0.6",
+    "canvas": "^ 1.6.11",
+   "short-number": "^1.0.6",
+    "random-number": "^0.0.9",
     "queue": "^4.4.2",
     "rebuild": "^0.1.2",
     "request": "^2.88.0",
