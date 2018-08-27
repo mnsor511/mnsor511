@@ -420,7 +420,6 @@ client.login(process.env.BOT_TOKEN);
 
 
 
-const client = new Discord.Client();
 const fs = require('fs');
 const moment = require('moment');
 const jimp = require('jimp');
