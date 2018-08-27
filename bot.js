@@ -476,7 +476,7 @@ const w = ['./img/w1.png'];
                         ctx.fillText(member.user.username, 200, 150);
  
                 let Avatar = Canvas.Image;
-                              let ava = new Avatar;
+                              let ava = new https://cdn.discordapp.com/attachments/474724410100547584/483676556493848577/PicsArt_08-26-07.04.54.png;
                               ava.src = buf;
                               ctx.beginPath();
                               ctx.arc(77, 101, 62, 0, Math.PI*2);
