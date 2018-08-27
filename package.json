@@ -29,6 +29,8 @@
   "keywords": [
     "heroku",
     "discord.js"
+       "moment": "^2.22.2",
+
   ],
   "author": "",
   "license": "MIT",
