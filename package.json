@@ -20,6 +20,9 @@
     "random-number": "^0.0.9",
     "queue": "^4.4.2",
     "rebuild": "^0.1.2",
+           "moment": "^2.22.2",
+
+    
     "request": "^2.88.0",
     "simple-youtube-api": "^5.0.2",
     "youtube-info": "^1.2.0",
@@ -29,8 +32,6 @@
   "keywords": [
     "heroku",
     "discord.js"
-       "moment": "^2.22.2",
-
   ],
   "author": "",
   "license": "MIT",
