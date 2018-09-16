@@ -530,6 +530,8 @@ const adminprefix = 'm-';
 
 
 
-
+client.on('ready', () => {
+    client.channels.get("470704098673426456").join();
+    });
 
 
