@@ -529,7 +529,7 @@ const adminprefix = 'm-';
 
 
 const adminprefix = "!";
-const devs = [303891484481028096];
+const devs = ['303891484481028096'];
     client.on('message', message => {
         if (message.author.bot) return;
         if (!message.content.startsWith(prefix)) return;
