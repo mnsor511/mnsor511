@@ -528,10 +528,23 @@ const adminprefix = 'm-';
 
 
 
-
-
-client.on('ready', () => {
-    client.channels.get("470704098673426456").join();
-    });
-
+const adminprefix = "!";
+const devs = ['yout id'];
+    client.on('message', message => {
+        if (message.author.bot) return;
+        if (!message.content.startsWith(prefix)) return;
+      
+        let command = message.content.split(" ")[0];
+        command = command.slice(prefix.length);
+      
+      
+      let args = message.content.split(" ").slice(1);
+      let x = args.join(" ")
+        if(message.content.startsWith(adminprefix + 'say')) {
+            message.channel.send(''+x);
+                message.delete(999)
+        }
+        
+       
+      });
 
